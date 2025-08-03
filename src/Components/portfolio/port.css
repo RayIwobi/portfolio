@@ -1,7 +1,15 @@
 body{
     background-color: rgb(248, 245, 245);
-    margin-left: 120px;
-    margin-right: 120px;   
+    margin-left: 50px;
+    margin-right: 50px;
+} 
+
+.main-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .ray{
@@ -31,28 +39,38 @@ body{
     color: rgb(139, 139, 211);
 }
 
-
-
-.name-image{
+.topInfo1{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin-top:70px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.newclass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.writeup{
-    width: 700px;
-    text-align: left;
+.newclass p{
+    font-size: 20px;
 }
 
-.name-image h2{
-    font-family:'Libre Baskerville';
-    font-size: 20px
+.profilepic{
+    display: flex; 
+    justify-content: center;   
 }
-
-.name-image p{
-    font-size: 23px;
+.profilepic img{
     width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: #faf7e0;
+    transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.profilepic img:hover{
+    background-color: #faeb89;
 }
 
 span{
@@ -108,19 +126,6 @@ span{
     border: 1px solid black;
 }
 
-.rayicon{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    border: 1px solid gray;
-    padding: 20px;
-    background-color: #faf7e0;
-    transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
-
-.rayicon:hover{
-    background-color: #faeb89;
-}
 
 .projects-corner{
     margin-top: 180px;
@@ -131,14 +136,13 @@ span{
     font-size: 40px;
 }
 
-.projectDisplays{
-    display: block;
-}
-
 .dox h3, h4{
     margin-left: 10px;
 }
-
+.dox h4{
+    width: 550px;
+    line-height: 1.6;
+}
 
 .cam{
     display: flex;
@@ -153,6 +157,11 @@ span{
 
 .dox{
     margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+#longertext{
+    width: 650px;
 }
 
 .dox img{
@@ -179,6 +188,7 @@ span{
     display: flex;
     align-items: center;
     text-decoration: none;
+    color: black;
 }
 
 .skills-container{
@@ -279,14 +289,14 @@ span{
     text-align: justify;
 }
 
-/* my stack design area -----*/
+/* MY STACK DESIGN AREA -----*/
 .stack-container p{
     font-size: 40px;
     font-weight: 600;
 }
 
 .the-design{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 200px;
     display: flex;
     align-items: center;
@@ -306,48 +316,14 @@ span{
 
 .yellow-square{
     position:absolute;
-    /* background-image: linear-gradient(to right, #ffdb00 85%, #ffdb00 10%); */
     background-color: #ffdb00;
     width: 400px;
-    height: 400px;
+    height: 370px;
     opacity: 85%;
+    border-radius: 10px;
 }
+    /* background-image: linear-gradient(to right, #ffdb00 85%, #ffdb00 10%); */
 
-.writeupblock{
-    position:absolute;
-    display: flex;
-    margin-left: 10px;
-}
-
-.mystack{
-    width: 293px;
-    height: 300px;
-    border: 1px solid black;
-    padding: 10px;
-    transition: background-color 0.6s ease-in-out, transform 0.6s ease-in-out;
-}
-
-.mystack:hover{
-    background-color: black; 
-    transform: scale(1.05);
-    color: white;
-    opacity: 70%;
-    overflow: hidden;
-}
-
-.mystack p{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-ul{
-    line-height: 35px;
-}
-
-ul li{
-    font-weight: 500;
-}
 
 .contact-info{
     line-height: 30px;
@@ -359,8 +335,77 @@ ul li{
     font-style: italic;
 }
 
-/* -----------Projects------------- */
+/** MY STACK 2 CONTAINER //*/
 
+.stackTitle2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.stack2Container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    /* position: relative; */
+}
+
+.stack2Container p{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.allskills{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    z-index: 0;
+}
+
+.skillContainer2{
+    border: 1px solid gray;
+    background-color: white;
+    opacity: 70%;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 297.5px;
+    height: 350px;
+    margin-top: 10px;
+}
+
+label{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.configure{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    position: relative;
+
+}
+.configure li{
+    background-color: white;
+    line-height: 2.8;
+}
+
+.configure li:hover{
+    background-color: white;
+}
+
+.a-margin{
+    margin-bottom: 100px;
+}
+/* -----------END MY STACK CONTAINER------------- */
+
+/* -----------Projects------------- */
+#projects-home{
+    margin-bottom: 150px;
+}
 .projecttitle h3{
     font-size: 40px;
     font-weight: 700;
@@ -368,6 +413,15 @@ ul li{
     margin-top: 150px;
     margin-bottom: -150px;
     padding-left: 10px;
+}
+
+.projectImg{
+    width: 540px;
+    height: 300px;
+}
+.projectImg2{
+    width: 640px;
+    height: 300px;
 }
 
 .project-line{
@@ -405,42 +459,105 @@ ul li{
 }
 
 /* ------MY EXPERIENCE SECTION----------- */
-
-.experience-container{
-    max-width: 1300px;
-    margin-bottom: 100px;
+.experienceBox{
     display: flex;
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-}
-#experience{
-    margin-top: 150px;
 }
 
-.year-section{
-    width: 300px;
-    background-color: #ffdb00;
-    padding: 15px;
-    margin-right: 30px;
-    font-weight: 700;
-    border-radius: 5px;
+.titlesection{
+    width: 350px;
 }
-
-.first-year{
-    padding-bottom: 1080px;
-}
-
-.ex-content{
-    display: flex;
-    align-items: center;
-}
-
-.secudus{
+.topyear{
     font-size: 18px;
-    gap: 10px;
 }
 
-.secudus li{
-    padding: 10px;
+.details ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.9;
+    list-style:circle;
+    font-size: 19px;
+    background-color: rgb(248, 245, 245);
+}
+.details li{
+    background-color: rgb(248, 245, 245);
+}
+.details li:hover{
+    background-color: rgb(248, 245, 245);
+}
+.detailAdjust li{
+    margin-left: -50px;
+}
+
+
+/* /^ FOOTER ^/ */
+.baseinfo{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* MOBILE VERSION */
+
+@media screen and (max-width:600px){
+    *{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .top-navigation{
+        display: none;
+    }
+    .name-image{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .profilepic Img{
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .newclass p{
+        font-size: 19px;
+    }
+    .top-links a{
+        display: none;
+    }
+    /* contact */
+    .contact-info{
+        width: 300px;
+    }
+    /* projects */
+    .cam{
+        display: flex;
+        flex-direction: column;
+    }
+    .projectImg{
+        width: 330px;
+        height: 200px;
+    }
+    .projectImg2{
+        width: 330px;
+        height: 200px;
+    }
+    .dox h4{
+        width: 330px;
+    }
+    #longertext{
+        width: 330px;
+    }
+    /* Experience */
+    .experienceBox{
+        display: flex;
+        flex-direction: column;
+    }
+    .topyear{
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+    .detailAdjust{
+        margin-left: 50px;
+    }
+    
 }

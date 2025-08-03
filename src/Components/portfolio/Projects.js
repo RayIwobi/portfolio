@@ -27,7 +27,7 @@ function Projects() {
         </div>
 
         <div className='projecttitle'>
-            <h3>Some of my Projects</h3>
+            <h3>Some of my Projects</h3><br/>
         </div>
             <div className='project-text'>
                 <div className='project-line'></div>
@@ -38,92 +38,91 @@ function Projects() {
         
 
          <div className='projects-corner'>
-                    <h2 id='x2'>Projects</h2>
-                    <div className='projectDisplays'>
-                        <div className='cam'>
-                           <div className='dox'>
-                            <img src={image1} alt='' style={{width:'550px', height:'300px', margin:'10px'}} />
-                            <h3 style={{fontWeight:'700'}}>Nedifoods E-commerce App</h3>
-                            <h4 style={{width:'550px', lineHeight:'1.6'}}>NediFoods is a full-stack e-commerce web app for browsing, adding to cart, and securely purchasing food products online.
-                            It features user authentication, cart management, Stripe checkout, and admin product controls.
-                            Built with React, using useContext for state management and react-router-dom for navigation.
-                            Backend powered by Express, MongoDB, JWT Auth, and API calls.</h4> 
-                            <div className='cani'>
-                                <Link to='https://github.com/RayIwobi/Ecom-backend'><img src={github} alt='' style={{width:'20px', height:'20px'}} />Github</Link>
-                                <Link to='https://nedifoods.co.uk'><img src={web} alt='' style={{width:'20px', height:'20px'}} />Live website</Link>
-                            </div>
-                        </div>
-                       <div className='dox'>
-                            <img src={yarnix} alt='' style={{width:'650px', height:'300px', margin:'10px'}} />
-                            <h3 style={{fontWeight:'700'}}>Yarnix social media App</h3>
-                            <h4 style={{width:'650px', lineHeight:'1.6'}}>Yarnix is a full-stack social media platform where users can post, comment, like, and manage profiles—similar to Facebook.
-                                It supports user auth, real-time updates, and secure content interactions.
-                                Frontend built with React, using Axios, useContext, react-router-dom, and Vanilla CSS.
-                                Backend includes Node.js, Express, MongoDB, JWT Auth, and Cloudinary for image uploads.</h4><br/>
-                            <div className='cani'>
-                                <Link><img src={github} alt='' style={{width:'20px', height:'20px'}} />Github</Link>
-                                <Link><img src={web} alt='' style={{width:'20px', height:'20px'}} />Live website</Link>
-                            </div>
-                        </div> 
-                        </div>
-        
-                        <div className='cam'>
-                           <div className='dox'>
-                            <img src={movieplace} alt='' style={{width:'550px', height:'300px', margin:'10px'}} />
-                            <h3 style={{fontWeight:'700'}}>Movieplace API App</h3>
-                            <h4 style={{width:'550px', lineHeight:'1.6'}}>Movie API App is a React-based app that lets users search for movies and view detailed info fetched from the OMDb API.
-                                It features a responsive UI with movie search, result listings, and individual movie detail pages.
-                                Built with React, using react-router-dom for routing and vanilla CSS for styling.
-                                Fetches movie data in real time from the OMDb API at omdbapi.com.</h4> 
-                            <div className='cani'>
-                                <Link to='https://github.com/RayIwobi/MovieApp'><img src={github} alt='' style={{width:'20px', height:'20px'}} />Github</Link>
-                                <Link to='https://movieapp-y4hw.onrender.com'><img src={web} alt='' style={{width:'20px', height:'20px'}} />Live webapp</Link>
-                            </div>
-                        </div>
-                        <div className='dox'>
-                            <img src={productlisting} alt='' style={{width:'650px', height:'300px', margin:'10px'}} />
-                            <h3 style={{fontWeight:'700'}}>Product listing API App</h3>
-                            <h4 style={{width:'650px', lineHeight:'1.6'}}>Product Listing API App is a frontend app that fetches and displays products from the Fake Store API, simulating a basic shopping experience.
-                            Users can browse products, view detailed info, and add items to a cart.
-                            Built with React, using Redux Toolkit for state management and react-router-dom for navigation.
-                            Styled with vanilla CSS and powered by data from the external Fake Store API.</h4><br/>
-                            <div className='cani'>
-                                <Link to='https://github.com/RayIwobi/product-listing'><img src={github} alt='' style={{width:'20px', height:'20px'}} />Github</Link>
-                                <Link to='https://productlisting.valorprojects.com.ng/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />Live website</Link>
-                            </div>
-                        </div> 
-                        </div>
-        
-                        <div className='cam'>
-                       <div className='dox'>
-                            <img src={login} alt='' style={{width:'550px', height:'300px', margin:'10px'}} />
-                            <h3 style={{fontWeight:'700'}}>Map Pinning App</h3>
-                            <h4 style={{width:'550px', lineHeight:'1.6'}}>Map Pinning App lets users drop pins on a map, add reviews to favorite locations, and save them to a database.
-                            It includes user authentication and supports viewing, adding, and deleting location pins.
-                            Built with React, Leaflet API, react-router-dom, and styled with vanilla CSS.
-                            Backend uses Node.js, Express, MongoDB, JWT, and bcrypt for secure auth and data storage.</h4> <br/>
-                            <div className='cani'>
-                                <Link><img src={github} alt='' style={{width:'20px', height:'20px'}} />Github</Link>
-                                <Link><img src={web} alt='' style={{width:'20px', height:'20px'}} />Live website</Link>
-                            </div>
-                        </div>
-                        <div className='dox'>
-                            <img src={meter} alt='' style={{width:'650px', height:'300px', margin:'10px'}} />
-                            <h3 style={{fontWeight:'700'}}>Metering Website (Development ongoing)</h3>
-                            <h4 style={{width:'650px', lineHeight:'1.6'}}>Metering and Instrumentation Website showcases products, services, and technical information related to industrial metering and control systems.
-                                It includes product listings, contact forms, and company information for client engagement.
-                                Built with React, using react-router-dom for navigation and CSS for responsive design.
-                                Dynamic content and user interactions are handled via Axios, with possible backend support for form submissions. The platform is built using the MERN stack technology.
-                                </h4><br/>
-                            <div className='cani'>
-                                <Link to='https://github.com/RayIwobi/product-listing'><img src={github} alt='' style={{width:'20px', height:'20px'}} />Github</Link>
-                                <Link to='https://productlisting.valorprojects.com.ng/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />Live website</Link>
-                            </div>
-                        </div> 
-        
-                        </div>
+            <h2 id='x2'>Projects</h2>
+            <div className='projectDisplays'>
+                <div className='cam'>
+                   <div className='dox'>
+                    <img src={image1} alt='' className='projectImg'/>
+                    <h3 style={{fontWeight:'700'}}>Nedifoods E-commerce App</h3>
+                    <h4 >NediFoods is a full-stack e-commerce web app for browsing, adding to cart, and securely purchasing food products online.
+                    It features user authentication, cart management, Stripe checkout, and admin product controls.
+                    Built with React, using useContext for state management and react-router-dom for navigation.
+                    Backend powered by Express, MongoDB, JWT Auth, and API calls.</h4> 
+                    <div className='cani'>
+                        <Link to='https://github.com/RayIwobi/Ecom-backend'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                        <Link to='https://nedifoods.co.uk'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
                     </div>
                 </div>
+               <div className='dox'>
+                    <img src={yarnix} alt=''  className='projectImg2'/>
+                    <h3 style={{fontWeight:'700'}}>Yarnix social media App</h3>
+                    <h4 id='longertext'>Yarnix is a full-stack social media platform where users can post, comment, like, and manage profiles—similar to Facebook.
+                        It supports user auth, real-time updates, and secure content interactions.
+                        Frontend built with React, using Axios, useContext, react-router-dom, and Vanilla CSS.
+                        Backend includes Node.js, Express, MongoDB, JWT Auth, and Cloudinary for image uploads.</h4><br/>
+                    <div className='cani'>
+                        <Link><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                        <Link><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
+                    </div>
+                </div> 
+                </div>
+
+                <div className='cam'>
+                   <div className='dox'>
+                    <img src={movieplace} alt='' className='projectImg'/>
+                    <h3 style={{fontWeight:'700'}}>Movieplace API App</h3>
+                    <h4 >Movie API App is a React-based app that lets users search for movies and view detailed info fetched from the OMDb API.
+                        It features a responsive UI with movie search, result listings, and individual movie detail pages.
+                        Built with React, using react-router-dom for routing and vanilla CSS for styling.
+                        Fetches movie data in real time from the OMDb API at omdbapi.com.</h4> 
+                    <div className='cani'>
+                        <Link to='https://github.com/RayIwobi/MovieApp'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                        <Link to='https://movieapp-y4hw.onrender.com'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live webapp</Link>
+                    </div>
+                </div>
+                <div className='dox'>
+                    <img src={productlisting} alt=''  className='projectImg2'/>
+                    <h3 style={{fontWeight:'700'}}>Product listing API App</h3>
+                    <h4 id='longertext'>Product Listing API App is a frontend app that fetches and displays products from the Fake Store API, simulating a basic shopping experience.
+                    Users can browse products, view detailed info, and add items to a cart.
+                    Built with React, using Redux Toolkit for state management and react-router-dom for navigation.
+                    Styled with vanilla CSS and powered by data from the external Fake Store API.</h4><br/>
+                    <div className='cani'>
+                        <Link to='https://github.com/RayIwobi/product-listing'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                        <Link to='https://productlisting.valorprojects.com.ng/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
+                    </div>
+                </div> 
+                </div>
+
+                <div className='cam'>
+               <div className='dox'>
+                    <img src={login} alt='' className='projectImg'/>
+                    <h3 style={{fontWeight:'700'}}>Map Pinning App</h3>
+                    <h4 >Map Pinning App lets users drop pins on a map, add reviews to favorite locations, and save them to a database.
+                    It includes user authentication and supports viewing, adding, and deleting location pins.
+                    Built with React, Leaflet API, react-router-dom, and styled with vanilla CSS.
+                    Backend uses Node.js, Express, MongoDB, JWT, and bcrypt for secure auth and data storage.</h4> <br/>
+                    <div className='cani'>
+                        <Link><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                        <Link><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
+                    </div>
+                </div>
+                <div className='dox'>
+                    <img src={meter} alt=''  className='projectImg2'/>
+                    <h3 style={{fontWeight:'700'}}>Metering Website (Development ongoing)</h3>
+                    <h4 id='longertext'>Metering and Instrumentation Website showcases products, services, and technical information related to industrial metering and control systems.
+                        Built with React, using react-router-dom for navigation and CSS for responsive design.
+                        Dynamic content and user interactions are handled via Axios, with possible backend support for form submissions. The platform is built using the MERN stack technology.
+                        </h4><br/>
+                    <div className='cani'>
+                        <Link to='https://github.com/RayIwobi/product-listing'><img src={github} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Github</Link>
+                        <Link to='https://productlisting.valorprojects.com.ng/'><img src={web} alt='' style={{width:'20px', height:'20px'}} />&nbsp;Live website</Link>
+                    </div>
+                </div> 
+
+                </div>
+            </div>
+        </div>
 
         <div className='baselink-container'>
             <div className='top-links'>

@@ -23,24 +23,15 @@ function MyExperience() {
       <div className='stack-container'>
           <p id='experience'>My Experience</p>
       </div>
-    <div className='experience-container'>
-      
-
-      <div className='year-section'>
-          <div className='first-year'>
+      <div className='experienceBox'>
+        <div className='titlesection'>
+          <div className='topyear'>
               Full-Stack React Developer<br/>
               NediFoods E-commerce (Freelance | Remote)<br/>
               Jan 2024 – Present<br/>
           </div>
-          <div className='second-year'>
-              Junior Web Developer<br/>
-              Techlod Nig <br/>
-              Aug 2020 – Apr 2023<br/>
-          </div>
-          
-      </div>
-      <div className='content-section'>
-          <div className='secudus'>
+        </div>
+        <div className='details'>
             <ul>
               <li>Developed and deployed a production-ready MERN stack e-commerce platform, featuring product catalog browsing, cart management, secure checkout, order tracking, and admin controls.</li>
               <li>Designed and implemented RESTful APIs for key features such as user registration and authentication, product CRUD, cart operations, checkout processing, and dashboard analytics.</li>
@@ -56,8 +47,19 @@ function MyExperience() {
               <li>Set up CI/CD pipelines with GitHub Actions for automated testing and deployments to Vercel (frontend) and Render (backend).</li>
               <li>Collaborated with a small remote team using Agile practices, contributing to sprint planning, code reviews, Git branching strategies, and weekly demos.</li>
             </ul>
-          </div><br/>
-          <div className='secudus'>
+      </div>
+      </div><br/><br/><br/>
+
+      <div className='experienceBox'>
+        <div className='titlesection'>
+          <div className='topyear'>
+              Junior Web Developer<br/>
+              Techlod Nig <br/>
+              Aug 2020 – Apr 2023<br/>
+          </div>
+        </div>
+        <div className='details'>
+          <div className='detailAdjust'>
             <ul>
               <li>Contributed to full-stack projects across real estate and travel sectors.</li>
               <li>Developed responsive frontend components with React and styled-components.</li>
@@ -68,9 +70,14 @@ function MyExperience() {
               <li>Deployed applications to Netlify, Vercel, and Render, managing environment variables, build pipelines, and custom domain configurations.</li>
               <li>Integrated third-party services such as Google Maps API, Cloudinary (for media management), and location-based search filters to enhance user experience.</li>
             </ul>
-          </div>
       </div>
       </div>
+      </div>
+
+
+
+
+
      <div className='baselink-container'>
             <div className='top-links'>
                 <Link to='/'><h3 >Home</h3></Link>

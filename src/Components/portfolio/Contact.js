@@ -18,21 +18,28 @@ function Contact() {
             </div>
         </div>
 
-        <div className='name-image'>
-            <div className='writeup'>
-                <h2 id='x2'>Get in touch</h2>
-                <p>I look forward to hearing from you. Reach out through 
-                    my contact details below.</p>
+
+        <div className='topInfo1'>
+        <div className='newclass'>
+            <div>
+            <h1>Get in touch</h1>
+                <p>I look forward to hearing from you. </p>
+                <p>Reach out through 
+                    my contact details below. </p>
             <div className='contact-info'>
                 Email: rayicon@gmail.com <br/>
                 Phone: +234 7060758339, +234 9131823783, +234 9074403272<br/>
                 Whatsapp: +234 7060758339
             </div>
+            <p>Thanks for stopping by.</p>
             </div>
-            <div>
-                <img src={rayicon} alt='ray' className='rayicon'/>
-            </div> 
-        </div><br/><br/><br/><br/><br/>
+       
+        </div >
+             <div className='profilepic'>
+                <img src={rayicon} alt='ray' /> 
+            </div>
+         </div >
+
 
         <div className='baselink-container'>
             <div className='top-links'>

@@ -7,15 +7,17 @@ import Contact from './Components/portfolio/Contact';
 import ScrollToTop from './Components/portfolio/ScrollToTop'
 import Navigation from './Components/portfolio/Navigation';
 import MyExperience from './Components/portfolio/MyExperience';
+import Menu from './Components/DropDownMenu/Menu';
 
 function App() {
   return (
     <>
     <Router>
+      <Menu/>
       <ScrollToTop />
-      <Navigation/>
+      {/* <Navigation/> You will be for mobile */}
       <Routes>
-        <Route path='/' element={<Home/>}/>
+         <Route path='/' element={<Home/>}/>
         <Route path='/experience' element={<MyExperience/>}/>
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/About' element={<About/>}/>
