@@ -32,7 +32,7 @@ function MyExperience() {
           </div>
         </div>
         <div className='details'>
-            <ul>
+            <ul style={{color:'black'}}>
               <li>Developed and deployed a production-ready MERN stack e-commerce platform, featuring product catalog browsing, cart management, secure checkout, order tracking, and admin controls.</li>
               <li>Designed and implemented RESTful APIs for key features such as user registration and authentication, product CRUD, cart operations, checkout processing, and dashboard analytics.</li>
               <li>Integrated Stripe Checkout and Webhooks, enabling secure payment handling, automatic order fulfillment, and real-time email notifications to customers and administrators using Nodemailer + Mailtrap.</li>
@@ -60,7 +60,7 @@ function MyExperience() {
         </div>
         <div className='details'>
           <div className='detailAdjust'>
-            <ul>
+            <ul style={{color:'black'}}>
               <li>Contributed to full-stack projects across real estate and travel sectors.</li>
               <li>Developed responsive frontend components with React and styled-components.</li>
               <li>Created and consumed RESTful APIs to power search filters, booking engines, and contact forms.</li>

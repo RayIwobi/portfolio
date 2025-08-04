@@ -43,7 +43,7 @@ function Projects() {
                 <div className='cam'>
                    <div className='dox'>
                     <img src={image1} alt='' className='projectImg'/>
-                    <h3 style={{fontWeight:'700'}}>Nedifoods E-commerce App</h3>
+                    <h3 style={{fontWeight:'700', color:'black'}}>Nedifoods E-commerce App</h3>
                     <h4 >NediFoods is a full-stack e-commerce web app for browsing, adding to cart, and securely purchasing food products online.
                     It features user authentication, cart management, Stripe checkout, and admin product controls.
                     Built with React, using useContext for state management and react-router-dom for navigation.
@@ -55,7 +55,7 @@ function Projects() {
                 </div>
                <div className='dox'>
                     <img src={yarnix} alt=''  className='projectImg2'/>
-                    <h3 style={{fontWeight:'700'}}>Yarnix social media App</h3>
+                    <h3 style={{fontWeight:'700', color:'black'}}>Yarnix social media App</h3>
                     <h4 id='longertext'>Yarnix is a full-stack social media platform where users can post, comment, like, and manage profiles—similar to Facebook.
                         It supports user auth, real-time updates, and secure content interactions.
                         Frontend built with React, using Axios, useContext, react-router-dom, and Vanilla CSS.
@@ -70,7 +70,7 @@ function Projects() {
                 <div className='cam'>
                    <div className='dox'>
                     <img src={movieplace} alt='' className='projectImg'/>
-                    <h3 style={{fontWeight:'700'}}>Movieplace API App</h3>
+                    <h3 style={{fontWeight:'700', color:'black'}}>Movieplace API App</h3>
                     <h4 >Movie API App is a React-based app that lets users search for movies and view detailed info fetched from the OMDb API.
                         It features a responsive UI with movie search, result listings, and individual movie detail pages.
                         Built with React, using react-router-dom for routing and vanilla CSS for styling.
@@ -82,7 +82,7 @@ function Projects() {
                 </div>
                 <div className='dox'>
                     <img src={productlisting} alt=''  className='projectImg2'/>
-                    <h3 style={{fontWeight:'700'}}>Product listing API App</h3>
+                    <h3 style={{fontWeight:'700', color:'black'}}>Product listing API App</h3>
                     <h4 id='longertext'>Product Listing API App is a frontend app that fetches and displays products from the Fake Store API, simulating a basic shopping experience.
                     Users can browse products, view detailed info, and add items to a cart.
                     Built with React, using Redux Toolkit for state management and react-router-dom for navigation.
@@ -97,7 +97,7 @@ function Projects() {
                 <div className='cam'>
                <div className='dox'>
                     <img src={login} alt='' className='projectImg'/>
-                    <h3 style={{fontWeight:'700'}}>Map Pinning App</h3>
+                    <h3 style={{fontWeight:'700', color:'black'}}>Map Pinning App</h3>
                     <h4 >Map Pinning App lets users drop pins on a map, add reviews to favorite locations, and save them to a database.
                     It includes user authentication and supports viewing, adding, and deleting location pins.
                     Built with React, Leaflet API, react-router-dom, and styled with vanilla CSS.
@@ -109,7 +109,7 @@ function Projects() {
                 </div>
                 <div className='dox'>
                     <img src={meter} alt=''  className='projectImg2'/>
-                    <h3 style={{fontWeight:'700'}}>Metering Website (Development ongoing)</h3>
+                    <h3 style={{fontWeight:'700', color:'black'}}>Metering Website (Development ongoing)</h3>
                     <h4 id='longertext'>Metering and Instrumentation Website showcases products, services, and technical information related to industrial metering and control systems.
                         Built with React, using react-router-dom for navigation and CSS for responsive design.
                         Dynamic content and user interactions are handled via Axios, with possible backend support for form submissions. The platform is built using the MERN stack technology.

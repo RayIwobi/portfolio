@@ -44,7 +44,7 @@ function Home() {
             <h3>Projects</h3>
             <div className='under-aboutme'>
                 <div className='straightline'></div>
-                <p className='aboutme-text'>Here’s a collection of some of my favorite projects that 
+                <p className='aboutme-text' style={{color:'black'}}>Here’s a collection of some of my favorite projects that 
                 highlight my skills in full-stack development, UI/UX design, and 
                 problem-solving. Each project was an opportunity to explore new 
                 technologies, overcome unique challenges, and deliver meaningful 
@@ -111,7 +111,7 @@ function Home() {
 
         <div className='mystory'>
             <h2>My Story</h2>
-            <div>
+            <div style={{color:'black'}}>
                 Hi, I’m a passionate Full-Stack Developer with 4 years of 
                 experience crafting dynamic, user-focused applications using the 
                 React ecosystem and beyond. With a background in Computer Science, 
@@ -147,14 +147,14 @@ function Home() {
 
         <div className='baseinfo'>
             <div>
-                <h3>I look forward to working with you</h3>
+                <h3 style={{color:'black'}}>I look forward to working with you</h3>
             <div className='buttons'>
                 <Link to='/contact'><button className='getintouch'>Get in touch</button></Link>
                 <Link to='/projects'><button className='browseproject'>Browse projects</button></Link>
             </div>
             </div>
             <div className='footerinfo'>
-                <h4>&copy; 2025 All Rights Reserved. Designed By Raymond Iwobi<br/>Built with React</h4>
+                <h4 style={{color:'black'}}>&copy; 2025 All Rights Reserved. Designed By Raymond Iwobi<br/>Built with React</h4>
             </div>
         </div>
       
