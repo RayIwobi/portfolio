@@ -1,5 +1,6 @@
 .mainnav-container{
     display: none;
+    color: black;
 }
 
 @media screen and (max-width:600px){

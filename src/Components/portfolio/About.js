@@ -18,7 +18,7 @@ function About() {
         </div>
 
         <div className='aboutme'>
-            <h3>About me</h3>
+            <h3>About me</h3>&nbsp;
             <div className='under-aboutme'>
                 <div className='straightline'></div>
                 <p className='aboutme-text'>Hi, I’m a passionate Full-Stack Developer with 4 years of experience 

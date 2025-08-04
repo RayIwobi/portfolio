@@ -476,7 +476,9 @@ label{
 .topyear{
     font-size: 18px;
 }
-
+.aboutme-text{
+    color: black;
+}
 .details ul{
     display: flex;
     flex-direction: column;
@@ -510,6 +512,7 @@ label{
     *{
         margin-left: 5px;
         margin-right: 5px;
+        color: black;
     }
     .top-navigation{
         display: none;
