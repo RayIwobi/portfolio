@@ -2,7 +2,7 @@ import github from './assets/github.png'
 import linkedin from './assets/linkedin.png'
 import rayicon from './assets/rayicon.jpg'
 import './port.css'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom' 
 
 function Contact() {
   return (
