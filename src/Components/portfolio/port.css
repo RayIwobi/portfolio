@@ -16,7 +16,7 @@ body{
 .ray{
     font-size: 21px;
     font-weight: 700;
-    color: #ffdb00;
+    color: black;
 }
 .top-navigation{
     display: flex;
@@ -520,6 +520,9 @@ label{
         margin-left: 5px;
         margin-right: 5px;
         color: black;
+    }
+    .ray{
+        color: #ffdb00;
     }
     .top-navigation{
         display: none;
