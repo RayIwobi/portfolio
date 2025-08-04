@@ -5,7 +5,7 @@ import About from './Components/portfolio/About';
 import Contact from './Components/portfolio/Contact';
 // import LoadMore from './Components/loadmoretest/LoadMore';
 import ScrollToTop from './Components/portfolio/ScrollToTop'
-// import Navigation from './Components/portfolio/Navigation';
+import Navigation from './Components/portfolio/Navigation';
 import MyExperience from './Components/portfolio/MyExperience';
 import Menu from './Components/DropDownMenu/Menu';
 
