@@ -149,11 +149,13 @@ span{
 
 .cam{
     display: flex;
+    color: black;
     justify-content: space-between;
 }
 
 .cam h3, h4{
     width: 500px;
+    color: black;
     font-family:'Libre Baskerville';
     font-weight:200;
 }
@@ -262,6 +264,7 @@ span{
 
 .aboutme{
     margin-top: 150px;
+    color: black;
 }
 
 .aboutme h3{
@@ -480,6 +483,7 @@ label{
     line-height: 1.9;
     list-style:circle;
     font-size: 19px;
+    color: black;
     background-color: rgb(248, 245, 245);
 }
 .details li{
@@ -538,6 +542,7 @@ label{
     /* projects */
     .cam{
         display: flex;
+        color: black;
         flex-direction: column;
     }
     .projectImg{
