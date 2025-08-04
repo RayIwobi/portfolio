@@ -478,6 +478,7 @@ label{
 }
 .aboutme-text{
     color: black;
+    font-weight: 600;
 }
 .details ul{
     display: flex;
