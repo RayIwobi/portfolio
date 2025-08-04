@@ -17,7 +17,7 @@ function Projects() {
     <div className='main-container'>
         <div className='top-navigation'>
             <div className='ray'>Rayicon</div>
-            <div className='top-links'>
+            <div className='top-links'> 
                 <Link to='/'><h3>Home</h3></Link>
                 <Link to='/experience'><h3>Experience</h3></Link>
                 <Link to='/projects'><h3 style={{color:'blue'}}>Projects</h3></Link>
