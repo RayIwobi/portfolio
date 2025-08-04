@@ -44,7 +44,7 @@ function Home() {
             <h3>Projects</h3>
             <div className='under-aboutme'>
                 <div className='straightline'></div>
-                <p className='aboutme-text' style={{color:'black'}}>Here’s a collection of some of my favorite projects that 
+                <p>Here’s a collection of some of my favorite projects that 
                 highlight my skills in full-stack development, UI/UX design, and 
                 problem-solving. Each project was an opportunity to explore new 
                 technologies, overcome unique challenges, and deliver meaningful 
