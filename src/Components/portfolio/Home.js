@@ -3,7 +3,6 @@ import github from './assets/github.png'
 import linkedin from './assets/linkedin.png'
 import './port.css'
 import { Link } from 'react-router-dom'
-import Menu from '../DropDownMenu/Menu'
 
 function Home() {
 
@@ -111,7 +110,7 @@ function Home() {
 
         <div className='mystory'>
             <h2>My Story</h2>
-            <div style={{color:'black'}}>
+            <p>
                 Hi, I’m a passionate Full-Stack Developer with 4 years of 
                 experience crafting dynamic, user-focused applications using the 
                 React ecosystem and beyond. With a background in Computer Science, 
@@ -126,7 +125,7 @@ function Home() {
                 have a deep appreciation for beautiful design and functional user 
                 experiences—whether it's a sleek e-commerce interface or a robust 
                 dashboard...<Link to='/about' id='more'>more</Link>
-            </div>
+            </p>
         </div>
 
         <div className='baselink-container'>

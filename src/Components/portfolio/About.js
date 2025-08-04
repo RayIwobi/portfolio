@@ -21,8 +21,8 @@ function About() {
             <h3>About me</h3>&nbsp;
             <div className='under-aboutme'>
                 <div className='straightline'></div>
-                <p className='aboutme-text'>
-                    <strong>Hi, I’m a passionate Full-Stack Developer with 4 years of experience 
+                <p >
+                    Hi, I’m a passionate Full-Stack Developer with 4 years of experience 
                     crafting dynamic, user-focused applications using the React ecosystem and beyond. With a background 
                     in Computer Science, I’ve built a strong foundation in both front-end and back-end development, 
                     allowing me to create complete, scalable, and intuitive digital experiences.<br/><br/>
@@ -42,7 +42,6 @@ function About() {
                     independently or as part of a team, I bring strong communication skills, curiosity, and a can-do attitude to every project.
 
                     Let’s build something amazing together!
-                </strong>
                 </p>
             </div>
             
