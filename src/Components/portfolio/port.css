@@ -286,13 +286,20 @@ span{
     margin-top: -80px;
 }
 
+.under-aboutme p{
+    color: black;
+    font-weight: 700;
+}
+
 .aboutme p{
     margin-top: -5px;
     margin-left: 20px;
     font-size: 20px;
-    font-weight: 100;
     line-height: 30px;
     text-align: justify;
+    font-weight: 700;
+    color: black;
+
 }
 
 /* MY STACK DESIGN AREA -----*/
