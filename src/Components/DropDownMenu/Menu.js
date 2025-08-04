@@ -18,7 +18,7 @@ function Menu() {
                 aria-expanded={isOpen}
             >
                 ☰ Menu 
-                <div>rayicon</div>
+                <div className='webname'>rayicon</div>
             </button>
 
             {isOpen && (

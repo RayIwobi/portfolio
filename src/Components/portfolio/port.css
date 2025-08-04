@@ -128,73 +128,55 @@ span{
     background-color: white;
     border: 1px solid black;
 }
-
-
-.projects-corner{
-    margin-top: 180px;
-    margin-bottom: 80px;
+/* ------------PROJECTS START---------------- */
+.projects-division{
+    margin-top: 150px;
 }
-
-#x2{
-    font-size: 40px;
+.projectsContainer{
+    margin: 25px 20px;
 }
-
-.dox h3, h4{
-    margin-left: 10px;
+.projectsContainer img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
-.dox h4{
-    width: 550px;
-    line-height: 1.6;
-}
-
-.cam{
-    display: flex;
-    color: black;
-    justify-content: space-between;
-}
-
-.cam h3, h4{
-    width: 500px;
-    color: black;
-    font-family:'Libre Baskerville';
-    font-weight:200;
-}
-
-.dox{
-    margin-bottom: 10px;
-    flex-wrap: wrap;
-}
-
-#longertext{
-    width: 650px;
-}
-
-.dox img{
-   border-radius: 10px;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.dox img:hover{
+.projectsContainer img:hover{
     background-color: black;
     filter: brightness(90%);
     transform:translateY(-5px);
     transition: 0.3s ease-in-out;
 }
-
-.cani{
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: -10px;
-    margin-bottom: 40px;
-    margin-left: 10px;
-}
-.cani a{
+.projects-links{
     display: flex;
     align-items: center;
-    text-decoration: none;
-    color: black;
 }
+.projects-links a{
+    color: black;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.projects-links a:hover{
+    color: red;
+    transform:translateY(-5px);
+    transition: 0.3s ease-in-out;
+}
+.over-Container{
+    display: flex;
+    justify-content: center;
+    margin: 25px 20px;
+}
+@media screen and (max-width:600px){
+    .over-Container{
+        display: block;
+    }
+    .projectsContainer{
+        margin-bottom: 40px;
+    }
+}
+
+
+/* ------------PROJECTS END---------------- */
 
 .skills-container{
     max-width:200px;
@@ -520,9 +502,6 @@ label{
         margin-left: 5px;
         margin-right: 5px;
         color: black;
-    }
-    .ray{
-        color: #ffdb00;
     }
     .top-navigation{
         display: none;

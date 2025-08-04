@@ -4,7 +4,9 @@
   max-width: 100vw;
 }
 
-
+.webname{
+  color: lime;
+}
 
 /* MENU BAR */
 ul {
