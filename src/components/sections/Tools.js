@@ -8,7 +8,7 @@ import vercel from '../assets/tooldimage/vercel.png'
 import chatgpt from '../assets/tooldimage/chatgpt.png'
 import aws from '../assets/tooldimage/aws.png'
 import { useState, useEffect } from "react";
-import { FaReact, FaBolt, FaStar } from "react-icons/fa";
+// import { FaReact, FaBolt, FaStar } from "react-icons/fa";
 
 function Tools() {
     const [step, setStep] = useState(0);

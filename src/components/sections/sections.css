@@ -291,6 +291,11 @@ textarea{
     background-color: rgb(218, 170, 111);
 }
 
+.contentarea{
+    width: 96.5%;
+    resize: none;
+}
+
 /* END CONTACT */
 
 #registry{
