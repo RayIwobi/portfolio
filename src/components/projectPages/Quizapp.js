@@ -51,7 +51,7 @@ function Quizapp() {
 
                                     <div className='thelinknavigation'>
                                         <img src={handpointing} alt='livewebsite' />
-                                        <Link to='https://quizapp-five-sable.vercel.app/quiz'>Live website</Link>
+                                        <Link to='https://quizapp-eco.vercel.app/'>Live website</Link>
                                     </div>
 
                                     <img src={waec} alt='ideaimages' className='ideaimages' />
@@ -122,8 +122,8 @@ function Quizapp() {
                                         ☆ Deployment: Cloud hosting for easy access and reliability<br />
                                     </div>
                                     <div className='facticons'>
-                                        {/* <Link to='' ><div className='conicons'></div> </Link> */}
-                                        <Link to='https://quizapp-five-sable.vercel.app/quiz'><button className='coniconsbutton'>live website</button></Link>
+                                        <Link to='https://github.com/RayIwobi/quizapp_sample' ><div className='conicons'></div> </Link>
+                                        <Link to='https://quizapp-eco.vercel.app/'><button className='coniconsbutton'>live website</button></Link>
                                     </div><br/>
 
                                 </div>
