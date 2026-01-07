@@ -125,7 +125,7 @@ function Projects() {
                         </div>
                     </Link>
 
-                    <Link to='/yarnix'>
+                    {/* <Link to='/yarnix'>
                         <div className='projectblocks'>
                             <img src={yarnix} alt='' className='projimg1' />
                             <div className='projtitle'>Yarnix</div>
@@ -136,7 +136,7 @@ function Projects() {
                                 </p>
                             </div>
                         </div>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </div>
