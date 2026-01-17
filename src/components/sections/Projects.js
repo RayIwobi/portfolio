@@ -46,6 +46,22 @@ function Projects() {
                         </div>
                     </Link>
 
+                    <Link to='/catchline'>
+                        <div className='projectblocks'>
+                            <img src={catch1} alt='' className='projimg1' />
+                            <div className='projtitle'>Catchline Group</div>
+                            <div className='progtext'>
+                                <p>
+                                    Catchline Group is a professional corporate website built to represent a leading
+                                    consulting and business development firm focused on transforming African.
+                                    <span style={{ color: 'Skyblue' }}>more...</span>
+                                </p>
+                            </div>
+                        </div>
+                    </Link>
+
+                    
+
                     <Link to='ideavault'>
                         <div className='projectblocks'>
                             <img src={ideavault} alt='' className='projimg1' />
@@ -72,19 +88,6 @@ function Projects() {
                         </div>
                     </Link>
 
-                    <Link to='/catchline'>
-                        <div className='projectblocks'>
-                            <img src={catch1} alt='' className='projimg1' />
-                            <div className='projtitle'>Catchline Group</div>
-                            <div className='progtext'>
-                                <p>
-                                    Catchline Group is a professional corporate website built to represent a leading
-                                    consulting and business development firm focused on transforming African.
-                                    <span style={{ color: 'Skyblue' }}>more...</span>
-                                </p>
-                            </div>
-                        </div>
-                    </Link>
 
                     <Link to='/amazonscraper'>
                         <div className='projectblocks'>

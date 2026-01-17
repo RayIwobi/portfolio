@@ -48,7 +48,6 @@ function Catchline() {
 
                                 <div className='projectpages'>
                                     <h1>Catchline Group – Business Consulting & Development Platform</h1>
-                                    <div style={{color:'yellow'}}>(development is ongoing)</div>
 
                                     <div className='thelinknavigation'>
                                         <img src={handpointing} alt='livewebsite' />
@@ -57,7 +56,7 @@ function Catchline() {
 
                                     <img src={catch1} alt='ideaimages' className='ideaimages' />
                                     <div className='projectsContent'>
-                                        Catchline Group is a professional corporate website built to represent
+                                        Catchline Group is a professional frontend corporate website built to represent
                                         a leading consulting and business development firm focused on transforming
                                         African businesses for global relevance. The platform is designed to communicate
                                         credibility, expertise, and impact while providing clear access to the organization’s
